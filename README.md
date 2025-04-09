@@ -1,13 +1,15 @@
-# Sample Hardhat Project
+# Verification System Smart Contracts
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This repository contains smart contracts for a user verification system built on Ethereum (Sepolia testnet). The system consists of two main contracts: UserRegistry and Verification, designed to work together for managing user registration and verification status.
 
-Try running some of the following tasks:
+## Table of Contents
+- [Project Structure](#project-structure)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Deployment](#deployment)
+- [Frontend Integration](#frontend-integration)
+- [Testing](#testing)
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+
+## Project Structure
