@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Web3 DApp Project
 
 ## Overview
@@ -50,3 +51,20 @@ MIT License
 
 ## Contributing
 Pull requests are welcome. Please read CONTRIBUTING.md for details.
+=======
+# Verification System Smart Contracts
+
+This repository contains smart contracts for a user verification system built on Ethereum (Sepolia testnet). The system consists of two main contracts: UserRegistry and Verification, designed to work together for managing user registration and verification status.
+
+## Table of Contents
+- [Project Structure](#project-structure)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Deployment](#deployment)
+- [Frontend Integration](#frontend-integration)
+- [Testing](#testing)
+
+
+## Project Structure
+>>>>>>> 0312e73ad76b21d2e83523f818a81b98b5cbac79
