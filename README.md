@@ -1,13 +1,52 @@
-# Sample Hardhat Project
+# Web3 DApp Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+## Overview
+This repository contains a decentralized application (DApp) built with Web3 technology. The project demonstrates the integration between blockchain and frontend technologies.
 
-Try running some of the following tasks:
+## Frontend Integration Steps
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+1. **Setup Environment**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+2. **Web3 Dependencies**
+    ```bash
+    npm install web3 ethers @web3-react/core
+    ```
+
+3. **Connect Wallet**
+    - Import necessary Web3 providers
+    - Initialize Web3 instance
+    - Setup wallet connection handlers
+
+4. **Smart Contract Integration**
+    - Add contract ABI to `/src/contracts`
+    - Configure network settings
+    - Create contract instances
+
+5. **Running the Frontend**
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+
+## Features
+- Wallet connectivity
+- Smart contract interactions
+- Responsive UI
+- Transaction handling
+
+## Requirements
+- Node.js 14+
+- MetaMask or similar Web3 wallet
+- Modern web browser
+
+## License
+MIT License
+
+## Contributing
+Pull requests are welcome. Please read CONTRIBUTING.md for details.
